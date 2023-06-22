@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textlb">Transparency</string>
+    <string name="textlb3">Tint</string>
+    <string name="textlb4">Re-size</string>
+    <string name="textlb2">Hello!!!</string>
+    <string name="radio">douala</string>
+    <string name="radio2">paris</string>
+    <string name="radio3">New york</string>
+</resources>

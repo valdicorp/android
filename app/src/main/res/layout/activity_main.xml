@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/t"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <RadioGroup
+            android:id="@+id/radiog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio"
+                />
+            <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio2"
+                />
+            <RadioButton
+                android:id="@+id/rd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio3"
+
+                />
+
+
+        </RadioGroup>
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hello!!!"/>
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textlb2"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <TextClock
+            android:id="@+id/cl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <CheckBox
+            android:id="@+id/bx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textlb"/>
+        <CheckBox
+            android:id="@+id/bx2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textlb3"
+            />
+        <CheckBox
+            android:id="@+id/bx3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textlb4"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:mipmap/sym_def_app_icon"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lin4"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        tools:ignore="WebViewLayout">
+        <Switch
+            android:id="@+id/page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Switch"
+            android:layout_gravity="center"
+            />
+        <WebView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+</LinearLayout>
